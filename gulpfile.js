@@ -13,9 +13,15 @@ var gulp = require('gulp');
 var riot = require('gulp-riot');
 
 gulp.task('riot', function () {
-    return gulp.src('ex.tag')
-        .pipe(riot({
-            compact: true // <- this
-        }))
-        .pipe(gulp.dest('dest'));
+    return gulp.src('./demo*/*.tag')
+        .pipe(riot())
+        .pipe(gulp.dest('./'));
 });
+gulp.task('watch',function(){
+    return gulp.watch('./demo*/*.tag',function(info){
+
+        return gulp.src('./demo*/*.tag')
+            .pipe(riot())
+            .pipe(gulp.dest('./'));
+    })
+})

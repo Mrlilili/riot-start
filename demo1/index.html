@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<todo id="todo"></todo>
+<script src="../lib/jquery/dist/jquery.js"></script>
+<script src="../lib/riot/riot.js"></script>
+<script src="index.js"></script>
+<script>
+
+    var demo = riot.mount('#todo', {title: 'this is title'});
+//    setTimeout(function () {
+//        demo[0].opts.title = 'change title';
+//        demo[0].update();
+//    }, 2000)
+//    setTimeout(function () {
+//        demo[0].unmount(true);
+//    }, 3000)
+//    setTimeout(function () {
+//        riot.mount('#todo', {title: 'hahahah'});
+//    }, 4000)
+    //    setTimeout(function () {
+    //        console.log('准备改变opts');
+    //        demo.opts = {
+    //            title: 'change Title'
+    //        }
+    //        demo.update({
+    //            title: 'change Title'
+    //        });
+    //    }, 2000)
+</script>
+</body>
+</html>
