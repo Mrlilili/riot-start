@@ -1,0 +1,24 @@
+{
+  "name": "riotjs-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex.js",
+  "dependencies": {
+    "gulp-riot": "^0.5.1",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrlilili/riot-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrlilili/riot-start/issues"
+  },
+  "homepage": "https://github.com/Mrlilili/riot-start#readme"
+}
